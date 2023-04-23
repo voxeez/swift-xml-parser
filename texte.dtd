@@ -1,0 +1,4 @@
+<!ELEMENT Texte (Mot|Liste)>
+<!ELEMENT Mot EMPTY>
+<!ELEMENT Liste (Mot|Liste)*>
+<!ATTLIST Mot nom NMTOKEN #REQUIRED>
